@@ -34,4 +34,8 @@ optional utilities and extensions to make the JupyterLite experience more enjoya
 
 For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
 
+## Installer paquets tiers
 
+Voir la liste ici : https://pyodide.org/en/stable/usage/packages-in-pyodide.html
+
+Puis ajouter les paquets dans `repl/jupyter-lite.json`

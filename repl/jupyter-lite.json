@@ -1,11 +1,29 @@
 {
-    "jupyter-lite-schema-version": 0,
-    "jupyter-config-data": {
-      "disabledExtensions": [
-        "@jupyterlab/drawio-extension",
-        "jupyterlab-kernel-spy",
-        "jupyterlab-tour"
-      ]
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "disabledExtensions": [
+      "@jupyterlab/drawio-extension",
+      "jupyterlab-kernel-spy",
+      "jupyterlab-tour"
+    ],
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "loadPyodideOptions": {
+          "packages": ["duckdb", 
+          "polars", 
+          "beautifulsoup4", 
+          "geopandas", 
+          "ipython",
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "requests",
+          "shapely",
+          "sqlalchemy",
+          "urllib3"
+        ]
+        }
+      }
     }
   }
-  
+}
